@@ -11,12 +11,12 @@ function App() {
     <div className="App">
       <BrowserRouter basename="./">
         <header>
-          <Link to="/">Accueil</Link>
+          <Link to="./">Accueil</Link>
         </header>
 
         <main>
           <Routes>
-            <Route path="/" element={<PageAccueil />} />
+            <Route path="./" element={<PageAccueil />} />
           </Routes>
         </main>
       </BrowserRouter>
