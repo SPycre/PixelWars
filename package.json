@@ -2,9 +2,10 @@
   "name": "pixelwars",
   "private": true,
   "version": "0.0.0",
+  "homepage": "http://https://spycre.github.io/PixelWars/",
   "type": "module",
   "scripts": {
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "predeploy": "npm run build",
     "dev": "vite",
     "build": "vite build",
