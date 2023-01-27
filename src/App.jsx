@@ -9,17 +9,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter basename="./">
-        <header>
-          <Link to="./">Accueil</Link>
-        </header>
-
-        <main>
-          <Routes>
-            <Route path="./" element={<PageAccueil />} />
-          </Routes>
-        </main>
-      </BrowserRouter>
+      <PageAccueil/>
     </div>
   )
 }
