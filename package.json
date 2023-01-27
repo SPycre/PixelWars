@@ -1,8 +1,7 @@
 {
   "name": "pixelwars",
-  "private": true,
   "version": "0.0.0",
-  "homepage": "http://https://spycre.github.io/PixelWars/",
+  "homepage": "https://spycre.github.io/PixelWars/",
   "type": "module",
   "scripts": {
     "deploy": "gh-pages -d dist",
